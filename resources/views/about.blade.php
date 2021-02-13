@@ -8,6 +8,6 @@
 </head>
 <body>
     <a href="/">หน้าแรก</a> | <a href="/about">เกี่ยวกับ</a> | <a href="/contact">ติดดต่อ</a>
-    <h1>สวัสดี Laravel </h1>
+    <h1>สวัสดี about </h1>
 </body>
 </html>
