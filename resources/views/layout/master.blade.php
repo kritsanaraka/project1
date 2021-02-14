@@ -8,6 +8,7 @@
 </head>
 <body>
     <a href="/">หน้าแรก</a> | <a href="/about">เกี่ยวกับ</a> | <a href="/contact">ติดดต่อ</a>
+    สวัสดี, @if (auth()->check()) {{auth()->user()->name}} <a href="/auth/logout">ออกจากระบบ</a> @else บุคคนทั่วไป @endif
     @yield("content")
     <hr>
     &copy; 2021 Kritsana Raka
